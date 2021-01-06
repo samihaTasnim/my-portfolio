@@ -62,9 +62,13 @@ h2 {
   font-size: low;
 }
 
+.about {
+  height: 500px;
+}
+
 .download-cv {
-  background-image: url("images/download-icon.jpg");
-  background-size: 7px;
+  background-image: url("download-icon.jpg");
+  background-size: 38px;
   background-repeat: no-repeat;
 }
 
@@ -73,15 +77,61 @@ h2 {
 }
 
 #centered-txt {
-  text-align: left;
+  text-align: center;
+  margin: 200px 100px 0px 100px;
+  padding: 70px;
 }
 
 .project-div {
-  background-color: rgba(128, 128, 128, 0.39);
+  background-color: rgba(201, 201, 201, 0.308);
+  margin: 70px 10px;
+  height: 580px;
 }
 
 .project {
-  width: 30%;
+  width: 100%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(56, 32, 32, 0.2);
+  width: 300px;
   float: left;
-  margin: 70px 22px;
+  margin-left: 110px;
+  border-radius: 15px;
+  height: 320px;
+  background-color: white;
+  text-align: center;
+}
+
+.container, h6 {
+  margin: 2px;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+h6 {
+  font-size: 15px;;
+}
+
+p {
+  font-size: 14px;
+}
+
+#chat {
+  background-image: url("images/Group_33094_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 55%;
+  height: 150px;
+  margin: 12% 20%;
+  border-radius: 15px;
+}
+
+#big-btn {
+  font-size: 40px;
+  
+}
+
+#chat-btn {
+  float: right;
 }
