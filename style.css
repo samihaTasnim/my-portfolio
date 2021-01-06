@@ -1,5 +1,10 @@
 body {
   font-family: 'Oswald', sans-serif;
+  margin: 0;
+}
+
+.sp-font {
+  font-family: 'Roboto', sans-serif;
 }
 
 .nav-bar {
@@ -54,6 +59,8 @@ img {
   margin: 38px 10px;
 }
 
+.
+
 h2 {
   font-size: 35px;
 }
@@ -66,18 +73,13 @@ h2 {
   height: 500px;
 }
 
-.download-cv {
-  background-image: url("download-icon.jpg");
-  background-size: 38px;
-  background-repeat: no-repeat;
-}
-
 .latest-txt {
   font-size: 35px;
 }
 
 #centered-txt {
   text-align: center;
+  font-size: 35px;
   margin: 200px 100px 0px 100px;
   padding: 70px;
 }
@@ -85,7 +87,7 @@ h2 {
 .project-div {
   background-color: rgba(201, 201, 201, 0.308);
   margin: 70px 10px;
-  height: 580px;
+  height: 700px;
 }
 
 .project {
@@ -96,11 +98,19 @@ h2 {
   box-shadow: 0 4px 8px 0 rgba(56, 32, 32, 0.2);
   width: 300px;
   float: left;
-  margin-left: 110px;
+  margin-left: 20px;
   border-radius: 15px;
   height: 320px;
   background-color: white;
   text-align: center;
+}
+
+#left-width {
+  margin-left: 180px !important; 
+}
+
+#right-width {
+  margin-right: 180px !important;
 }
 
 .container, h6 {
@@ -121,17 +131,34 @@ p {
   background-image: url("images/Group_33094_1.png");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 55%;
-  height: 150px;
-  margin: 12% 20%;
-  border-radius: 15px;
+  width: 906px;
+  height: 225px;
+  margin: 10% 15%;
+  border-radius: 30px;
 }
 
 #big-btn {
-  font-size: 40px;
-  
+  font-size: 70px;
+  padding: 65px 80px 0 20px;
+  color: white;
 }
 
 #chat-btn {
   float: right;
+  padding: 10px 20px;
+  margin-top: 14px !important;
+  font-size: 24px;
+}
+
+.sm-img {
+  width: 2%;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.sm-font {
+  font-size: small;
 }
