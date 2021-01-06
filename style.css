@@ -25,7 +25,7 @@ body {
 
 .big-txt {
   font-size: 50px;
-  color: tomato;
+  color: rgb(21, 140, 219);
 }
 
 .about-me {
@@ -38,7 +38,7 @@ body {
 .hire-btn {
   text-decoration: none;
   font-size: bold;
-  background-image: linear-gradient(90deg, rgb(224, 130, 22), red);
+  background-image: linear-gradient(90deg, rgb(129, 175, 221), rgb(18, 68, 207));
   padding: 13px 28px;
   color: white;
   border-radius: 7px;
@@ -58,8 +58,6 @@ img {
 .hire {
   margin: 38px 10px;
 }
-
-.
 
 h2 {
   font-size: 35px;
@@ -127,6 +125,26 @@ p {
   font-size: 14px;
 }
 
+#work-history {
+  height: 300px;
+  text-align: center;
+  margin: 10px 400px;
+  border-radius: 5px;
+  background-image: url("images/Group 33087.png");
+  background-repeat: no-repeat;
+}
+
+.work-exp {
+  background-image: linear-gradient(45deg, rgb(191, 128, 221), rgb(211, 39, 174));
+  width: 180px;
+  height: 150px;
+  box-shadow: 3px 12px 12px 5px rgb(149, 150, 145); 
+  float: left;
+  text-align: center;
+  margin: 0 45px;
+  border-radius: 20%;
+}
+
 #chat {
   background-image: url("images/Group_33094_1.png");
   background-repeat: no-repeat;
@@ -161,4 +179,8 @@ footer {
 
 .sm-font {
   font-size: small;
+}
+
+#history-header {
+  color:rgb(189, 84, 201);
 }
